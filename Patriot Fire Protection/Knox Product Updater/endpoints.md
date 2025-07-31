@@ -12,8 +12,6 @@ This is the primary endpoint for running a Knox product update. It utilizes the 
 |-----------|----------------------------------------------|--------------------------------|
 | path      | (*string*) The relative path to the CSV file | /uploads/2025/07/file-name.csv |
 
-Example path: /uploads/2025/07/file-name.csv
-
 ### Response
 The successful response. This will be returned if the update has started without failure.
 #### 200 Response
