@@ -8,9 +8,9 @@ This is the primary endpoint for running a Knox product update. It utilizes the 
 `POST /wp-json/knox/v1/update`
 
 ### Arguments
-| Parameter | Value                                        |
-|-----------|----------------------------------------------|
-| path      | (*string*) The relative path to the CSV file |
+| Parameter | Value                                        | Example                        |
+|-----------|----------------------------------------------|--------------------------------|
+| path      | (*string*) The relative path to the CSV file | /uploads/2025/07/file-name.csv |
 
 Example path: /uploads/2025/07/file-name.csv
 
