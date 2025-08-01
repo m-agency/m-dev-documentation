@@ -36,7 +36,9 @@ The failed response. The will be returned if the update failed before finishing.
 This endpoint checks and sends back details regarding the current status of the update. It is useful in determining the state of the update admin page.
 
 ### Definition
-`GET /wp-json/knox/v1/status`
+```http
+GET /wp-json/knox/v1/status
+```
 
 ### Arguments
 No arguments available for this endpoint.
@@ -81,7 +83,9 @@ The "message" property will vary based on error returned by the server.
 This endpoint is designed to notify the database that the user has acknowledged a success or failed state so they can start over.
 
 ### Definition
-`POST /wp-json/knox/v1/update-status`
+```http
+POST /wp-json/knox/v1/update-status
+```
 
 ### Arguments
 No arguments available for this endpoint.
