@@ -5,7 +5,7 @@ The **Knox Product Updater** provides a REST API for running updates and managin
 This is the primary endpoint for running a Knox product update. It utilizes the WordPress action scheduler to update product data from a CSV file in the background.
 
 ### Definition
-`POST /wp-json/knox/v1/update`
+```POST /wp-json/knox/v1/update```http
 
 ### Arguments
 | Parameter | Value                                        | Example                        |
